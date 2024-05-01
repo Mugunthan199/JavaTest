@@ -12,11 +12,8 @@ package com.calculator;//Objective:
 
 import com.sun.org.apache.xpath.internal.operations.Operation;
 
-public class Addition  {
-public Integer add (int a, int b)
-{
-    int c;
-    c = a+b;
-    return c;
-}
+public class Addition {
+    public Integer add(int a, int b) {
+        return a + b;
+    }
 }
